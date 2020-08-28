@@ -1,9 +1,7 @@
 package main
 
 import (
-	"bytes"
 	"fmt"
-	"github.com/PuerkitoBio/goquery"
 	"github.com/antchfx/htmlquery"
 	"github.com/gocolly/colly/v2"
 	"github.com/sillyhatxu/crawler-service/common/logconfig"
@@ -59,10 +57,81 @@ func main() {
 	htmlPageByte := read.File(filePathName)
 	resp := &colly.Response{StatusCode: 200, Body: htmlPageByte}
 	doc, _ := htmlquery.Parse(strings.NewReader(string(htmlPageByte)))
-	titleXmlNode := htmlquery.FindOne(doc, "/html/body/div/div[4]/div")
-	titleXmlElem := colly.NewXMLElementFromHTMLNode(resp, titleXmlNode)
+	xmlNodes := htmlquery.Find(doc, "/html/body/div/div[4]/div/*")
+	for _, xmlNode := range xmlNodes {
+		xmlElem := colly.NewXMLElementFromHTMLNode(resp, xmlNode)
+		switch xmlElem.Name {
+		case "p":
+			value := xmlElem.ChildText("/span")
+			if value != "" {
+				fmt.Println(value)
+			}
+			value = xmlElem.ChildAttr("/img", "src")
+			if value != "" {
+				fmt.Println(value)
+			}
+		case "h6":
+			value := xmlElem.ChildText("/span")
+			if value != "" {
+				fmt.Println("*" + value + "*")
+			}
+		case "ul":
+			for i, v := range xmlElem.ChildTexts("/li/p/span") {
+				fmt.Println(fmt.Sprintf("%d. %s", i+1, v))
+			}
+		default:
 
-	//
+		}
+		//fmt.Println(xmlElem.Name)
+
+		//for _, v := range xmlElem.ChildTexts("/p/span") {
+		//	fmt.Println(v)
+		//}
+		//fmt.Println("------------")
+		//xmlElem = colly.NewXMLElementFromHTMLNode(resp, xmlNode)
+		//for _, v := range xmlElem.ChildTexts("/h6/span") {
+		//	fmt.Println(v)
+		//}
+		//fmt.Println("------------")
+		//xmlElem = colly.NewXMLElementFromHTMLNode(resp, xmlNode)
+		//for _, v := range xmlElem.ChildAttrs("/p/img", "src") {
+		//	fmt.Println(string(v))
+		//}
+	}
+
+	//for _, v := range titleXmlElem.ChildAttrs("/p/img", "src") {
+	//	fmt.Println(string(v))
+	//}
+	//for _, child := range htmlquery.Find(titleXmlElem.DOM.(*html.Node), "/div/*") {
+	//	for _, attr := range child.Attr {
+	//		fmt.Println(attr,attr.Key, attr.Val)
+	//	}
+	//}
+
+	//for _, child := range htmlquery.Find(titleXmlElem.DOM.(*html.Node), xpathQuery) {
+	//	for _, attr := range child.Attr {
+	//		if attr.Key == attrName {
+	//			res = append(res, strings.TrimSpace(attr.Val))
+	//		}
+	//	}
+	//}
+
+	//var elems []*html.Node
+	//top *html.Node, selector *xpath.Expr
+	//titleXmlNode.Select
+	//t := selector.Select(CreateXPathNavigator(top))
+	//for t.MoveNext() {
+	//	nav := t.Current().(*NodeNavigator)
+	//	n := getCurrentNode(nav)
+	//	// avoid adding duplicate nodes.
+	//	if len(elems) > 0 && (elems[0] == n || (nav.NodeType() == xpath.AttributeNode &&
+	//		nav.LocalName() == elems[0].Data && nav.Value() == InnerText(elems[0]))) {
+	//		continue
+	//	}
+	//	elems = append(elems, n)
+	//}
+	//return elems
+
 	//for _, v := range xmlElem.ChildAttrs("/p/img", "src") {
 	//	fmt.Println(string(v))
 	//}
