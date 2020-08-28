@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 	"github.com/antchfx/htmlquery"
-	"github.com/gocolly/colly"
+	"github.com/gocolly/colly/v2"
 	"github.com/sillyhatxu/crawler-service/common/logconfig"
+	"github.com/sillyhatxu/crawler-service/common/read"
 	"github.com/sirupsen/logrus"
 	"io"
-	"io/ioutil"
 	"net/http"
 	"os"
 	"strings"
@@ -36,9 +36,9 @@ func main() {
 	cookiePathName := fmt.Sprintf("%s/%s/%s", pwd, module, "cookie.txt")
 	hostPathName := fmt.Sprintf("%s/%s/%s", pwd, module, "host.txt")
 	logrus.Infof("read file : %s", filePathName)
-	htmlPageByte := readFile(filePathName)
-	cookie := readFile(cookiePathName)
-	host := readFile(hostPathName)
+	htmlPageByte := read.File(filePathName)
+	cookie := read.File(cookiePathName)
+	host := read.File(hostPathName)
 	resp := &colly.Response{StatusCode: 200, Body: htmlPageByte}
 	doc, _ := htmlquery.Parse(strings.NewReader(string(htmlPageByte)))
 	xmlNodes := htmlquery.Find(doc, "/html/body/div/div/div")
@@ -51,6 +51,7 @@ func main() {
 		//fmt.Println()
 		url := xmlElem.ChildAttr("/div[2]/div/ul/li[2]/a", "href")
 		if url != "" {
+			//index 从 1 开始；如 div = ['aaa','bbb']  div[1] = 'aaa'  div[2] = 'bbb'
 			url = string(host) + xmlElem.ChildAttr("/div[2]/div/ul/li[2]/a", "href")
 		}
 		camblyArray = append(camblyArray, Cambly{
@@ -89,19 +90,6 @@ func getFileName(cambly Cambly) string {
 	}
 	check[name] = 1
 	return name + ".mp4"
-}
-
-func readFile(path string) []byte {
-	file, err := os.Open(path)
-	if err != nil {
-		panic(err)
-	}
-	defer file.Close()
-	contextByte, err := ioutil.ReadAll(file)
-	if err != nil {
-		panic(err)
-	}
-	return contextByte
 }
 
 func formatTime(input string) string {
