@@ -18,5 +18,6 @@
 # project
 vendor/
 test.html
+test*.html
 cookie.txt
 host.txt

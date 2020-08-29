@@ -1,11 +1,14 @@
 package main
 
 import (
+	"bytes"
 	"fmt"
 	"github.com/antchfx/htmlquery"
 	"github.com/gocolly/colly/v2"
+	filedownload "github.com/sillyhatxu/crawler-service/common/download"
 	"github.com/sillyhatxu/crawler-service/common/logconfig"
 	"github.com/sillyhatxu/crawler-service/common/read"
+	"github.com/sillyhatxu/crawler-service/common/txt"
 	"github.com/sirupsen/logrus"
 	"os"
 	"strings"
@@ -16,6 +19,15 @@ const (
 	module   = "lagou-300"
 	fileName = "test.html"
 )
+
+var subtitles = []string{
+	"一、", "二、", "三、", "四、", "五、",
+	"六、", "七、", "八、", "九、", "十、",
+	"十一、", "十二、", "十三、", "十四、", "十五、",
+	"十六、", "十七、", "十八、", "十九、", "二十、",
+	"二十一、", "二十二、", "二十三、", "二十四、", "二十五、",
+	"二十六、", "二十七、", "二十八、", "二十九、", "三十、",
+}
 
 func init() {
 	logconfig.InitialLogConfig(logconfig.Debug(true), logconfig.Env("dev"), logconfig.Project(project), logconfig.Module(module), logconfig.Version("v1.0.0-beta.1"))
@@ -50,139 +62,90 @@ func backups() {
 	fmt.Println("------------------------------------------------------------")
 }
 
-func main() {
+func download(fileName string) {
 	pwd, _ := os.Getwd()
 	filePathName := fmt.Sprintf("%s/%s/%s", pwd, module, fileName)
 	logrus.Infof("read file : %s", filePathName)
+	var buffer bytes.Buffer
 	htmlPageByte := read.File(filePathName)
 	resp := &colly.Response{StatusCode: 200, Body: htmlPageByte}
 	doc, _ := htmlquery.Parse(strings.NewReader(string(htmlPageByte)))
+	titleXmlNode := htmlquery.FindOne(doc, "/html/body/div")
+	titleXmlElem := colly.NewXMLElementFromHTMLNode(resp, titleXmlNode)
+	title := titleXmlElem.ChildText("/div")
+	buffer.WriteString(title + "\n" + "\n")
 	xmlNodes := htmlquery.Find(doc, "/html/body/div/div[4]/div/*")
+	subtitleIndex := 0
+	downloadPath := fmt.Sprintf("%s/%s/%s/", pwd, module, title)
+	imageIndex := 1
 	for _, xmlNode := range xmlNodes {
 		xmlElem := colly.NewXMLElementFromHTMLNode(resp, xmlNode)
 		switch xmlElem.Name {
 		case "p":
 			value := xmlElem.ChildText("/span")
 			if value != "" {
-				fmt.Println(value)
+				buffer.WriteString(value + "\n")
+				continue
 			}
 			value = xmlElem.ChildAttr("/img", "src")
 			if value != "" {
-				fmt.Println(value)
+				filename, err := filedownload.BuildFileName(value)
+				if err != nil {
+					panic(err)
+				}
+				file := filedownload.File{
+					FileURL:      value,
+					DownloadPath: downloadPath,
+					DownloadName: fmt.Sprintf("%d.%s", imageIndex, filename),
+				}
+				//fmt.Println(file)
+				err = file.Download()
+				if err != nil {
+					panic(err)
+				}
+				buffer.WriteString(fmt.Sprintf("%d-%s \n", imageIndex, value))
+				imageIndex++
+				continue
 			}
+			buffer.WriteString("\n")
 		case "h6":
 			value := xmlElem.ChildText("/span")
 			if value != "" {
-				fmt.Println("*" + value + "*")
+				buffer.WriteString(subtitles[subtitleIndex] + value + "\n")
+				subtitleIndex++
+			} else {
+				buffer.WriteString("\n")
 			}
+		case "h2":
+			buffer.WriteString("\n")
 		case "ul":
 			for i, v := range xmlElem.ChildTexts("/li/p/span") {
-				fmt.Println(fmt.Sprintf("%d. %s", i+1, v))
+				buffer.WriteString(fmt.Sprintf("%d. %s\n", i+1, v))
 			}
 		default:
-
+			buffer.WriteString("\n")
 		}
-		//fmt.Println(xmlElem.Name)
-
-		//for _, v := range xmlElem.ChildTexts("/p/span") {
-		//	fmt.Println(v)
-		//}
-		//fmt.Println("------------")
-		//xmlElem = colly.NewXMLElementFromHTMLNode(resp, xmlNode)
-		//for _, v := range xmlElem.ChildTexts("/h6/span") {
-		//	fmt.Println(v)
-		//}
-		//fmt.Println("------------")
-		//xmlElem = colly.NewXMLElementFromHTMLNode(resp, xmlNode)
-		//for _, v := range xmlElem.ChildAttrs("/p/img", "src") {
-		//	fmt.Println(string(v))
-		//}
 	}
+	file := txt.File{
+		FilePath:    downloadPath,
+		FileName:    fmt.Sprintf("%s.txt", title),
+		FileContent: buffer,
+	}
+	err := file.Write()
+	if err != nil {
+		panic(err)
+	}
+}
 
-	//for _, v := range titleXmlElem.ChildAttrs("/p/img", "src") {
-	//	fmt.Println(string(v))
-	//}
-	//for _, child := range htmlquery.Find(titleXmlElem.DOM.(*html.Node), "/div/*") {
-	//	for _, attr := range child.Attr {
-	//		fmt.Println(attr,attr.Key, attr.Val)
-	//	}
-	//}
-
-	//for _, child := range htmlquery.Find(titleXmlElem.DOM.(*html.Node), xpathQuery) {
-	//	for _, attr := range child.Attr {
-	//		if attr.Key == attrName {
-	//			res = append(res, strings.TrimSpace(attr.Val))
-	//		}
-	//	}
-	//}
-
-	//var elems []*html.Node
-	//top *html.Node, selector *xpath.Expr
-	//titleXmlNode.Select
-	//t := selector.Select(CreateXPathNavigator(top))
-	//for t.MoveNext() {
-	//	nav := t.Current().(*NodeNavigator)
-	//	n := getCurrentNode(nav)
-	//	// avoid adding duplicate nodes.
-	//	if len(elems) > 0 && (elems[0] == n || (nav.NodeType() == xpath.AttributeNode &&
-	//		nav.LocalName() == elems[0].Data && nav.Value() == InnerText(elems[0]))) {
-	//		continue
-	//	}
-	//	elems = append(elems, n)
-	//}
-	//return elems
-
-	//for _, v := range xmlElem.ChildAttrs("/p/img", "src") {
-	//	fmt.Println(string(v))
-	//}
-	//ctx := &colly.Context{}
-	//resp := &colly.Response{
-	//	Request: &colly.Request{
-	//		Ctx: ctx,
-	//	},
-	//	Ctx: ctx,
-	//}
-	//doc, err := goquery.NewDocumentFromReader(bytes.NewBuffer(htmlPageByte))
-	//if err != nil {
-	//	panic(err)
-	//}
-	//i := 0
-	//doc.Find("/html/body/div/div[4]/div").Each(func(_ int, s *goquery.Selection) {
-	//	for _, n := range s.Nodes {
-	//		htmlElement := colly.NewHTMLElementFromSelectionNode(resp, s, n, i)
-	//		i++
-	//		htmlElement.ForEach("", func(j int, element *colly.HTMLElement) {
-	//			fmt.Println(element)
-	//		})
-	//	}
-	//})
-	//for _, child := range htmlquery.Find(tempXmlElem.DOM.(*html.Node), "/div") {
-	//	fmt.Println(child)
-	//	child.Attr
-	//	//for _, attr := range child.Attr {
-	//	//	if attr.Key == attrName {
-	//	//		res = append(res, strings.TrimSpace(attr.Val))
-	//	//	}
-	//	//}
-	//}
-	//xmlNodes := htmlquery.Find(doc, "/html/body/div/div[4]/div")
-	//for _, node := range xmlNodes {
-	//	xmlElem = colly.NewXMLElementFromHTMLNode(resp, node)
-	//	for _, v := range xmlElem.ChildAttr("/p/img","src") {
-	//		fmt.Println(v)
-	//	}
-	//}
-	//for _, xmlNode := range xmlNodes {
-	//	fmt.Println(xmlNode)
-	//	fmt.Println("----------")
-	//	xmlElem := colly.NewXMLElementFromHTMLNode(resp, xmlNode)
-	//	value := xmlElem.ChildText("/p/span")
-	//	if value != "" {
-	//		fmt.Println(value)
-	//	}
-	//	value = xmlElem.ChildText("/h6/span")
-	//	if value != "" {
-	//		fmt.Println(value)
-	//	}
-	//}
+func main() {
+	fileNames := []string{
+		"test1.html", "test2.html", "test3.html", "test4.html",
+		"test5.html", "test6.html", "test7.html", "test8.html",
+		"test9.html", "test10.html", "test11.html", "test12.html",
+		"test13.html", "test14.html",
+	}
+	//download(fileNames[0])
+	for _, fileName := range fileNames {
+		download(fileName)
+	}
 }
