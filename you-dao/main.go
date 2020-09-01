@@ -66,7 +66,7 @@ func main() {
 	for _, word := range words {
 		result, err := search(word)
 		if err != nil {
-			panic(err)
+			fmt.Println(word, err)
 		}
 		buffer.WriteString(word + "|||" + result + "###")
 		time.Sleep(2 * time.Second)
