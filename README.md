@@ -72,9 +72,10 @@ Now a nested list:
 
  1. First, get these ingredients:
 
-      * carrots
-      * celery
-      * lentils
+* carrots
+    * celery
+        * lentils
+            * lentils
 
  2. Boil some water.
 
