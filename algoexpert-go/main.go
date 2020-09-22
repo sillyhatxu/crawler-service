@@ -103,7 +103,7 @@ func algoExpert(filePathName string) bytes.Buffer {
 
 func main() {
 	pwd, _ := os.Getwd()
-	for i := 1; i <= 2; i++ {
+	for i := 1; i <= 3; i++ {
 		fmt.Println(fmt.Sprintf("---------- %d ----------", i))
 		fileName := fmt.Sprintf("test%d", i)
 		filePathName := fmt.Sprintf("%s/%s/%s.html", pwd, module, fileName)
