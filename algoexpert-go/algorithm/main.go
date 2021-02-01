@@ -103,20 +103,35 @@ func algoExpert(filePathName string) bytes.Buffer {
 
 func main() {
 	pwd, _ := os.Getwd()
-	for i := 1; i <= 3; i++ {
-		fmt.Println(fmt.Sprintf("---------- %d ----------", i))
-		fileName := fmt.Sprintf("test%d", i)
-		filePathName := fmt.Sprintf("%s/%s/%s.html", pwd, module, fileName)
-		logrus.Infof("read file : %s", filePathName)
-		result := algoExpert(filePathName)
-		f := txt.File{
-			FilePath:    fmt.Sprintf("%s/%s/", pwd, module),
-			FileName:    fmt.Sprintf("%s.md", fileName),
-			FileContent: result,
-		}
-		err := f.Write()
-		if err != nil {
-			panic(err)
-		}
+	page := 5
+	fileName := fmt.Sprintf("test%d", page)
+	filePathName := fmt.Sprintf("%s/%s/%s.html", pwd, module, fileName)
+	logrus.Infof("read file : %s", filePathName)
+	result := algoExpert(filePathName)
+	f := txt.File{
+		FilePath:    fmt.Sprintf("%s/%s/", pwd, module),
+		FileName:    fmt.Sprintf("%s.md", fileName),
+		FileContent: result,
 	}
+	err := f.Write()
+	if err != nil {
+		panic(err)
+	}
+	//
+	//for i := 1; i <= 3; i++ {
+	//	fmt.Println(fmt.Sprintf("---------- %d ----------", i))
+	//	fileName := fmt.Sprintf("test%d", i)
+	//	filePathName := fmt.Sprintf("%s/%s/%s.html", pwd, module, fileName)
+	//	logrus.Infof("read file : %s", filePathName)
+	//	result := algoExpert(filePathName)
+	//	f := txt.File{
+	//		FilePath:    fmt.Sprintf("%s/%s/", pwd, module),
+	//		FileName:    fmt.Sprintf("%s.md", fileName),
+	//		FileContent: result,
+	//	}
+	//	err := f.Write()
+	//	if err != nil {
+	//		panic(err)
+	//	}
+	//}
 }
