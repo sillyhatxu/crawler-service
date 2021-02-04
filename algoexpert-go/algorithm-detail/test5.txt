@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<body>
+<div class="horizontal reflex-container"><div class="horizontal reflex-element" style="flex: 0.65 1 0%;"><div class="_2XJ6jIujHvigLRHtOkz4fg "><div class="F1JFkhqUR0570-SOdUuLL"><button class="
+      _2X_Irl-V64mHgAub_AnCfI
+      Pt0-DKdojEUQjnL7uRpnv
+      _1xvgXzBGBfP6uIK3o0QJtY
+      yuADB5LEGtqEMPhmGwWOA
+
+
+
+      d73Sb1fbAoLgw71N6HrMd
+
+
+    " type="button" to="" target="" data-tip-disable="false" tabindex="0"><span class="
+    _7QNNHtAek0GZ6zXQfKIyR
+
+  ">Prompt</span><div class="
+    MfbTCIHgh7zKsKVcU1igM
+    _2YffrGNVz4fCyRXa9fg1Yl
+
+  "><div class="kpm_V7KqnvDCATK0kVP4f" data-tip="" currentitem="false" style="height: 25px; width: 25px; border-color: white transparent;"></div></div></button><button class="
+      _2X_Irl-V64mHgAub_AnCfI
+      Pt0-DKdojEUQjnL7uRpnv
+      _1xvgXzBGBfP6uIK3o0QJtY
+      yuADB5LEGtqEMPhmGwWOA
+
+
+
+
+
+
+    " type="button" to="" target="" data-tip-disable="false" tabindex="0"><span class="
+    _7QNNHtAek0GZ6zXQfKIyR
+
+  ">Scratchpad</span><div class="
+    MfbTCIHgh7zKsKVcU1igM
+    _2YffrGNVz4fCyRXa9fg1Yl
+
+  "><div class="kpm_V7KqnvDCATK0kVP4f" data-tip="" currentitem="false" style="height: 25px; width: 25px; border-color: white transparent;"></div></div></button><div data-tip="" currentitem="false"><button class="
+      _2X_Irl-V64mHgAub_AnCfI
+      Pt0-DKdojEUQjnL7uRpnv
+      _1xvgXzBGBfP6uIK3o0QJtY
+      yuADB5LEGtqEMPhmGwWOA
+
+
+
+
+
+
+    " type="button" to="" target="" data-tip-disable="false" tabindex="0"><span class="
+    _7QNNHtAek0GZ6zXQfKIyR
+
+  ">Our Solution(s)</span><div class="
+    MfbTCIHgh7zKsKVcU1igM
+    _2YffrGNVz4fCyRXa9fg1Yl
+
+  "><div class="kpm_V7KqnvDCATK0kVP4f" data-tip="" currentitem="false" style="height: 25px; width: 25px; border-color: white transparent;"></div></div></button></div><div data-tip="" currentitem="false"><button class="
+      _2X_Irl-V64mHgAub_AnCfI
+      Pt0-DKdojEUQjnL7uRpnv
+      _1xvgXzBGBfP6uIK3o0QJtY
+      yuADB5LEGtqEMPhmGwWOA
+
+
+
+
+
+
+    " type="button" to="" target="" data-tip-disable="false" tabindex="0"><span class="
+    _7QNNHtAek0GZ6zXQfKIyR
+
+  ">Video Explanation</span><div class="
+    MfbTCIHgh7zKsKVcU1igM
+    _2YffrGNVz4fCyRXa9fg1Yl
+
+  "><div class="kpm_V7KqnvDCATK0kVP4f" data-tip="" currentitem="false" style="height: 25px; width: 25px; border-color: white transparent;"></div></div></button></div><div class="_2zIA85b7a-efFN-uLh36zI "></div></div><div class="_3t8NG61nHESOP1qu7oV8iT"><div class="_3E0jIuryFh6Tdub4CIzq4R _-9XmY6KTbXkFVDX8vmSh6"><div class="CodeMirror cm-s-monokai CodeMirror-overlayscroll" style="width: 100%; height: 100%; font-size: 14px;"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" disabled="" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-overlayscroll-horizontal" cm-not-content="true" style="display: none; right: 6px; left: 0px;"><div style="width: 10px; left: 0px;"></div></div><div class="CodeMirror-overlayscroll-vertical" cm-not-content="true" style="display: block; bottom: 0px;"><div style="height: 10px; top: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true" style="height: 6px; width: 6px;"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; min-width: 3px; padding-right: 6px; padding-bottom: 0px;"><div style="position: relative;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"><pre class="CodeMirror-line" role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">// O(n) time | O(1) space - where n is the length of the array</span></span></pre></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"></div><div class="CodeMirror-code" role="presentation"></div></div></div></div></div><div style="position: absolute; height: 30px; width: 1px; border-bottom: 0px solid transparent;"></div><div class="CodeMirror-gutters" style="left: 0px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 1px;"></div><div class="CodeMirror-gutter CodeMirror-foldgutter"></div></div></div></div></div><div class="_1aWQfGqRZ5W0n45sRnzA4N "><div class="_1yoIu2psOSN4xS_cLEOo6i"><div class="_1N0Z5nJw72qIGsmmhVDjVR"><span class="_3LkUDA1fhw-OVlIym0M6dA">Difficulty: </span><span class="
+  _11xMt2kUj8_5V1YbQ6qRa2
+  e3UP8u_ryGK53WeU1cKY8" data-tip="Medium" currentitem="false"></span></div><div class="_1N0Z5nJw72qIGsmmhVDjVR"><span class="_3LkUDA1fhw-OVlIym0M6dA">Category: </span><span class="">Arrays</span></div><div class="_1N0Z5nJw72qIGsmmhVDjVR"><span class="_3LkUDA1fhw-OVlIym0M6dA">Successful Submissions: </span><span class="">13617+</span></div></div><h2 class="_18vH1oBcax1p6QgLLbgm_a">Move Element To End<div class="_3kjE1VnvIPU2K0RknQqkbv undefined" data-tip="Question Not Submitted" currentitem="false"></div><svg viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="_2PbRhKl158fXQ7FD16BM5"><path d="M12.821 16a.5.5 0 01-.203-.043L8 13.901l-4.618 2.056a.501.501 0 01-.694-.556L3.707 10.3.147 6.732a.502.502 0 01.255-.845l5.103-1.023L7.543.272c.16-.362.753-.362.914 0l2.037 4.592 5.104 1.023a.5.5 0 01.255.845l-3.56 3.567L13.31 15.4a.5.5 0 01-.49.6zM8 12.852c.069 0 .138.015.203.043l3.938 1.754-.882-4.417a.502.502 0 01.137-.452l3.09-3.094-4.441-.89a.5.5 0 01-.36-.288L8 1.708l-1.686 3.8a.5.5 0 01-.36.288l-4.44.89 3.09 3.094c.117.118.169.288.136.452l-.882 4.417 3.939-1.754A.497.497 0 018 12.852z"></path></svg></h2><div class="pRAH82oBuvs5qXXJxJWmS"><p>
+                            You're given an array of integers and an integer. Write a function that moves
+                            all instances of that integer in the array to the end of the array and returns
+                            the array.
+                        </p>
+                        <p>
+                            The function should perform this in place (i.e., it should mutate the input
+                            array) and doesn't need to maintain the order of the other integers.
+                        </p>
+                        <h3>Sample Input</h3>
+                        <pre><span class="CodeEditor-promptParameter">array</span> = [2, 1, 2, 2, 2, 3, 4, 2]
+<span class="CodeEditor-promptParameter">toMove</span> = 2
+</pre>
+                        <h3>Sample Output</h3>
+                        <pre>[1, 3, 4, 2, 2, 2, 2, 2] <span class="CodeEditor-promptComment">// the numbers 1, 3, and 4 could be ordered differently</span>
+</pre>
+                    </div><div class="_2HYBc21Tp7eipnPF5ZHTkB"><h3 class="_2SfDHoeyiVsJom7o2qaFUs">Hints</h3><div class="k-F8aAI8ghKnubDWj7aF8"><div class="
+      EGA5hB1SfCvXrmbRa0dVL
+      _3ueNrNUkUEYmQdId1IdK4Y
+
+      " tabindex="0"><div class="
+      _2VETeTVuVEIZz8hft8XmYx
+      _10QkcGvpB2df5C5bxWnmct
+      "><div class="_1NVSPYP3hBJSyQIQThJcVr">Hint 1</div><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 292.362 292.362" class="ziG9cplWruSO34u3rlTHj "><path d="M286.935 69.377c-3.614-3.617-7.898-5.424-12.848-5.424H18.274c-4.952 0-9.233 1.807-12.85 5.424C1.807 72.998 0 77.279 0 82.228c0 4.948 1.807 9.229 5.424 12.847l127.907 127.907c3.621 3.617 7.902 5.428 12.85 5.428s9.233-1.811 12.847-5.428L286.935 95.074c3.613-3.617 5.427-7.898 5.427-12.847 0-4.948-1.814-9.229-5.427-12.85z"></path></svg></div><div class="_3eVBLPRkiVIcsNJFJ-3urG"><div class="_2uaA-tUdCiVqJRNjXDpITG"><p class="_1hf9iTBA6fn0IBq3f1pqGu">You can solve this problem in linear time.</p></div></div></div></div><div class="k-F8aAI8ghKnubDWj7aF8"><div class="
+      EGA5hB1SfCvXrmbRa0dVL
+      _3ueNrNUkUEYmQdId1IdK4Y
+
+      " tabindex="0"><div class="
+      _2VETeTVuVEIZz8hft8XmYx
+      _10QkcGvpB2df5C5bxWnmct
+      "><div class="_1NVSPYP3hBJSyQIQThJcVr">Hint 2</div><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 292.362 292.362" class="ziG9cplWruSO34u3rlTHj "><path d="M286.935 69.377c-3.614-3.617-7.898-5.424-12.848-5.424H18.274c-4.952 0-9.233 1.807-12.85 5.424C1.807 72.998 0 77.279 0 82.228c0 4.948 1.807 9.229 5.424 12.847l127.907 127.907c3.621 3.617 7.902 5.428 12.85 5.428s9.233-1.811 12.847-5.428L286.935 95.074c3.613-3.617 5.427-7.898 5.427-12.847 0-4.948-1.814-9.229-5.427-12.85z"></path></svg></div><div class="_3eVBLPRkiVIcsNJFJ-3urG"><div class="_2uaA-tUdCiVqJRNjXDpITG"><p class="_1hf9iTBA6fn0IBq3f1pqGu">In view of Hint #1, you can solve this problem without sorting the input array. Try setting two pointers at the start and end of the array, respectively, and progressively moving them inwards.</p></div></div></div></div><div class="k-F8aAI8ghKnubDWj7aF8"><div class="
+      EGA5hB1SfCvXrmbRa0dVL
+      _3ueNrNUkUEYmQdId1IdK4Y
+
+      " tabindex="0"><div class="
+      _2VETeTVuVEIZz8hft8XmYx
+      _10QkcGvpB2df5C5bxWnmct
+      "><div class="_1NVSPYP3hBJSyQIQThJcVr">Hint 3</div><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 292.362 292.362" class="ziG9cplWruSO34u3rlTHj "><path d="M286.935 69.377c-3.614-3.617-7.898-5.424-12.848-5.424H18.274c-4.952 0-9.233 1.807-12.85 5.424C1.807 72.998 0 77.279 0 82.228c0 4.948 1.807 9.229 5.424 12.847l127.907 127.907c3.621 3.617 7.902 5.428 12.85 5.428s9.233-1.811 12.847-5.428L286.935 95.074c3.613-3.617 5.427-7.898 5.427-12.847 0-4.948-1.814-9.229-5.427-12.85z"></path></svg></div><div class="_3eVBLPRkiVIcsNJFJ-3urG"><div class="_2uaA-tUdCiVqJRNjXDpITG"><p class="_1hf9iTBA6fn0IBq3f1pqGu">Following Hint #2, set two pointers at the start and end of the array, respectively. Move the right pointer inwards so long as it points to the integer to move, and move the left pointer inwards so long as it doesn't point to the integer to move. When both pointers aren't moving, swap their values in place. Repeat this process until the pointers pass each other.</p></div></div></div></div><div class="k-F8aAI8ghKnubDWj7aF8"><div class="
+      EGA5hB1SfCvXrmbRa0dVL
+      _3ueNrNUkUEYmQdId1IdK4Y
+
+      " tabindex="0"><div class="
+      _2VETeTVuVEIZz8hft8XmYx
+      _10QkcGvpB2df5C5bxWnmct
+      "><div class="_1NVSPYP3hBJSyQIQThJcVr">Optimal Space &amp; Time Complexity</div><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 292.362 292.362" class="ziG9cplWruSO34u3rlTHj "><path d="M286.935 69.377c-3.614-3.617-7.898-5.424-12.848-5.424H18.274c-4.952 0-9.233 1.807-12.85 5.424C1.807 72.998 0 77.279 0 82.228c0 4.948 1.807 9.229 5.424 12.847l127.907 127.907c3.621 3.617 7.902 5.428 12.85 5.428s9.233-1.811 12.847-5.428L286.935 95.074c3.613-3.617 5.427-7.898 5.427-12.847 0-4.948-1.814-9.229-5.427-12.85z"></path></svg></div><div class="_3eVBLPRkiVIcsNJFJ-3urG"><div class="_2uaA-tUdCiVqJRNjXDpITG"><p class="_1hf9iTBA6fn0IBq3f1pqGu">O(n) time | O(1) space - where n is the length of the array</p></div></div></div></div></div></div><div class="_2W1L14iOwGCHBaBtrZjpdi _-9XmY6KTbXkFVDX8vmSh6"><div class="_2T0ue7gzuvLEaYRv7jLDu7" id="js-video-wrapper" data-vimeo-initialized="true"><iframe src="https://player.vimeo.com/video/374589194?app_id=122963" width="426" height="240" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" title="Move Element To End" data-ready="true"></iframe></div><div class="_1T_GTaV_Jw1TVYAAaMJcDh"><button class="
+      _2X_Irl-V64mHgAub_AnCfI
+      qpzlH3yMUItLasFHlNlWg
+      _1xvgXzBGBfP6uIK3o0QJtY
+      _2_o28Gmv1eujhEjVpbYOQ0
+
+
+
+
+
+      MjfpN3dg1sIFGP5jgOcZQ
+    " type="button" to="" target="" data-tip-disable="false" tabindex="0"><span class="
+    _7QNNHtAek0GZ6zXQfKIyR
+
+  ">Go to Conceptual Overview</span><div class="
+    MfbTCIHgh7zKsKVcU1igM
+    _2YffrGNVz4fCyRXa9fg1Yl
+
+  "><div class="kpm_V7KqnvDCATK0kVP4f" data-tip="" currentitem="false" style="height: 25px; width: 25px; border-color: white transparent;"></div></div></button><button class="
+      _2X_Irl-V64mHgAub_AnCfI
+      qpzlH3yMUItLasFHlNlWg
+      _1xvgXzBGBfP6uIK3o0QJtY
+      _2_o28Gmv1eujhEjVpbYOQ0
+
+
+
+
+
+      MjfpN3dg1sIFGP5jgOcZQ
+    " type="button" to="" target="" data-tip-disable="false" tabindex="0"><span class="
+    _7QNNHtAek0GZ6zXQfKIyR
+
+  ">Go to Code Walkthrough</span><div class="
+    MfbTCIHgh7zKsKVcU1igM
+    _2YffrGNVz4fCyRXa9fg1Yl
+
+  "><div class="kpm_V7KqnvDCATK0kVP4f" data-tip="" currentitem="false" style="height: 25px; width: 25px; border-color: white transparent;"></div></div></button></div></div></div></div></div><div class="_2KU2Q3t0eehftuvMIH1rvq lzB3v1OXr9A743VV9WBkt undefined  reflex-splitter"></div><div class="horizontal reflex-element" style="flex: 0.35 1 0%;"><div class="_2XJ6jIujHvigLRHtOkz4fg"><div class="F1JFkhqUR0570-SOdUuLL"><button class="
+      _2X_Irl-V64mHgAub_AnCfI
+      Pt0-DKdojEUQjnL7uRpnv
+      _1xvgXzBGBfP6uIK3o0QJtY
+      yuADB5LEGtqEMPhmGwWOA
+
+
+
+      d73Sb1fbAoLgw71N6HrMd
+
+
+    " type="button" to="" target="" data-tip-disable="false" tabindex="0"><span class="
+    _7QNNHtAek0GZ6zXQfKIyR
+
+  ">Tests</span><div class="
+    MfbTCIHgh7zKsKVcU1igM
+    _2YffrGNVz4fCyRXa9fg1Yl
+
+  "><div class="kpm_V7KqnvDCATK0kVP4f" data-tip="" currentitem="false" style="height: 25px; width: 25px; border-color: white transparent;"></div></div></button><span data-tip="Quick Test isn't available <br /> for Go yet" data-tip-disable="true" currentitem="false"><button class="
+      _2X_Irl-V64mHgAub_AnCfI
+      Pt0-DKdojEUQjnL7uRpnv
+      _1xvgXzBGBfP6uIK3o0QJtY
+      yuADB5LEGtqEMPhmGwWOA
+
+
+
+
+
+
+    " type="button" to="" target="" data-tip-disable="false" tabindex="0"><span class="
+    _7QNNHtAek0GZ6zXQfKIyR
+
+  ">Quick Test</span><div class="
+    MfbTCIHgh7zKsKVcU1igM
+    _2YffrGNVz4fCyRXa9fg1Yl
+
+  "><div class="kpm_V7KqnvDCATK0kVP4f" data-tip="" currentitem="false" style="height: 25px; width: 25px; border-color: white transparent;"></div></div></button></span><button class="
+      _2X_Irl-V64mHgAub_AnCfI
+      Pt0-DKdojEUQjnL7uRpnv
+      _1xvgXzBGBfP6uIK3o0QJtY
+      yuADB5LEGtqEMPhmGwWOA
+
+
+
+
+
+
+    " type="button" to="" target="" data-tip-disable="false" tabindex="0"><span class="
+    _7QNNHtAek0GZ6zXQfKIyR
+
+  ">Sandbox</span><div class="
+    MfbTCIHgh7zKsKVcU1igM
+    _2YffrGNVz4fCyRXa9fg1Yl
+
+  "><div class="kpm_V7KqnvDCATK0kVP4f" data-tip="" currentitem="false" style="height: 25px; width: 25px; border-color: white transparent;"></div></div></button><div class="_2zIA85b7a-efFN-uLh36zI"><button class="
+      _2X_Irl-V64mHgAub_AnCfI
+      qpzlH3yMUItLasFHlNlWg
+      _1xvgXzBGBfP6uIK3o0QJtY
+      yuADB5LEGtqEMPhmGwWOA
+
+
+
+
+
+      _2ssALYD2i6qKLw6AG0N3vn
+    " type="button" to="" target="" data-tip="Show" data-tip-disable="false" tabindex="0" currentitem="false"><span class="
+    _7QNNHtAek0GZ6zXQfKIyR
+
+  "><svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="_1YnaVJJrwEeabvskepv3XL"><path d="M64 104C22.127 104 1.367 67.496.504 65.943a4 4 0 010-3.887C1.367 60.504 22.127 24 64 24s62.633 36.504 63.496 38.057a4 4 0 010 3.887C126.633 67.496 105.873 104 64 104zM8.707 63.994C13.465 71.205 32.146 96 64 96c31.955 0 50.553-24.775 55.293-31.994C114.535 56.795 95.854 32 64 32 32.045 32 13.447 56.775 8.707 63.994zM64 88c-13.234 0-24-10.766-24-24s10.766-24 24-24 24 10.766 24 24-10.766 24-24 24zm0-40c-8.822 0-16 7.178-16 16s7.178 16 16 16 16-7.178 16-16-7.178-16-16-16z" stroke="currentColor" stroke-width="3"></path></svg></span><div class="
+    MfbTCIHgh7zKsKVcU1igM
+    _2YffrGNVz4fCyRXa9fg1Yl
+
+  "><div class="kpm_V7KqnvDCATK0kVP4f" data-tip="" currentitem="false" style="height: 25px; width: 25px; border-color: white transparent;"></div></div></button><button class="
+      _2X_Irl-V64mHgAub_AnCfI
+      qpzlH3yMUItLasFHlNlWg
+      _1xvgXzBGBfP6uIK3o0QJtY
+      yuADB5LEGtqEMPhmGwWOA
+
+
+
+
+
+      _2ssALYD2i6qKLw6AG0N3vn
+    " type="button" to="" target="" data-tip="More Info" data-tip-disable="false" tabindex="0" currentitem="false"><span class="
+    _7QNNHtAek0GZ6zXQfKIyR
+
+  "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 330" fill="currentColor" class="v4-o6UwwRQ2O9UWdRW52M"><path d="M165 0C74.019 0 0 74.02 0 165.001 0 255.982 74.019 330 165 330s165-74.018 165-164.999S255.981 0 165 0zm0 300c-74.44 0-135-60.56-135-134.999S90.56 30 165 30s135 60.562 135 135.001C300 239.44 239.439 300 165 300z"></path><path d="M164.998 70c-11.026 0-19.996 8.976-19.996 20.009 0 11.023 8.97 19.991 19.996 19.991 11.026 0 19.996-8.968 19.996-19.991 0-11.033-8.97-20.009-19.996-20.009zM165 140c-8.284 0-15 6.716-15 15v90c0 8.284 6.716 15 15 15 8.284 0 15-6.716 15-15v-90c0-8.284-6.716-15-15-15z"></path></svg></span><div class="
+    MfbTCIHgh7zKsKVcU1igM
+    _2YffrGNVz4fCyRXa9fg1Yl
+
+  "><div class="kpm_V7KqnvDCATK0kVP4f" data-tip="" currentitem="false" style="height: 25px; width: 25px; border-color: white transparent;"></div></div></button></div></div><div class="_3t8NG61nHESOP1qu7oV8iT _3Le4QYJ-wuvIfOmfTTwDkN"><div class="_3E0jIuryFh6Tdub4CIzq4R _-9XmY6KTbXkFVDX8vmSh6"><div class="CodeMirror cm-s-monokai CodeMirror-overlayscroll" style="width: 100%; height: 100%; font-size: 14px;"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-overlayscroll-horizontal" cm-not-content="true"><div></div></div><div class="CodeMirror-overlayscroll-vertical" cm-not-content="true"><div></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; min-width: 3px;"><div style="position: relative;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"><pre class="CodeMirror-line" role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">// This file is initialized with a code version of this</span></span></pre></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"></div><div class="CodeMirror-code" role="presentation"></div></div></div></div></div><div style="position: absolute; height: 30px; width: 1px;"></div><div class="CodeMirror-gutters" style="left: 0px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 1px;"></div><div class="CodeMirror-gutter CodeMirror-foldgutter"></div></div></div></div></div><div class="_1LYpoj3S9weYIrpnzbc3mQ _-9XmY6KTbXkFVDX8vmSh6 QuickTest-CmWrapper"><span class="_1tTqsijd03k4U7jlhA2Uha">array</span><div class="_3DlOYLiE27MkKCHvJ4JeGh"><div class="CodeMirror cm-s-monokai CodeMirror-overlayscroll" style="width: 100%; height: 100%; font-size: 14px;"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-overlayscroll-horizontal" cm-not-content="true"><div></div></div><div class="CodeMirror-overlayscroll-vertical" cm-not-content="true"><div></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; min-width: 3px;"><div style="position: relative;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>1</div></div></div><div class="CodeMirror-measure"><pre class="CodeMirror-line" role="presentation"><span role="presentation" style="padding-right: 0.1px;">[<span class="cm-number">2</span>, <span class="cm-number">1</span>, <span class="cm-number">2</span>, <span class="cm-number">2</span>, <span class="cm-number">2</span>, <span class="cm-number">3</span>, <span class="cm-number">4</span>, <span class="cm-number">2</span>]</span></pre></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"></div><div class="CodeMirror-code" role="presentation"></div></div></div></div></div><div style="position: absolute; height: 30px; width: 1px;"></div><div class="CodeMirror-gutters"><div class="CodeMirror-gutter CodeMirror-lint-markers"></div><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 1px;"></div></div></div></div></div><span class="_1tTqsijd03k4U7jlhA2Uha">toMove</span><div class="_3DlOYLiE27MkKCHvJ4JeGh"><div class="CodeMirror cm-s-monokai CodeMirror-overlayscroll" style="width: 100%; height: 100%; font-size: 14px;"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-overlayscroll-horizontal" cm-not-content="true"><div></div></div><div class="CodeMirror-overlayscroll-vertical" cm-not-content="true"><div></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; min-width: 3px;"><div style="position: relative;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>1</div></div></div><div class="CodeMirror-measure"><pre class="CodeMirror-line" role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-number">2</span></span></pre></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"></div><div class="CodeMirror-code" role="presentation"></div></div></div></div></div><div style="position: absolute; height: 30px; width: 1px;"></div><div class="CodeMirror-gutters"><div class="CodeMirror-gutter CodeMirror-lint-markers"></div><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 1px;"></div></div></div></div></div></div><div class="_1rbIALK91weRWJmtic4afp  dark"><div class="T5If_4nMQzEw7OO_5WafD"><div class="_1TTYJqjHyXq5Wk4v2qxlCa WQFK1XYoNoHrSFZQqlC3B dark"><span class="mGA3QqPB7uQ-Bt6P-D73u">Test Case 1<svg aria-hidden="true" data-prefix="fas" data-icon="share-square" class="_3X0zN3mQa388ERt3siM8mS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-tip="Populate Quick Test" currentItem="false"><path fill="currentColor" d="M568.482 177.448L424.479 313.433C409.3 327.768 384 317.14 384 295.985v-71.963c-144.575.97-205.566 35.113-164.775 171.353 4.483 14.973-12.846 26.567-25.006 17.33C155.252 383.105 120 326.488 120 269.339c0-143.937 117.599-172.5 264-173.312V24.012c0-21.174 25.317-31.768 40.479-17.448l144.003 135.988c10.02 9.463 10.028 25.425 0 34.896zM384 379.128V448H64V128h50.916a11.99 11.99 0 008.648-3.693c14.953-15.568 32.237-27.89 51.014-37.676C185.708 80.83 181.584 64 169.033 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48v-88.806c0-8.288-8.197-14.066-16.011-11.302a71.83 71.83 0 01-34.189 3.377c-7.27-1.046-13.8 4.514-13.8 11.859z"></path></svg></span><pre class="_2Z65yov7mdonKkpCXgc_4c line-numbers language-json" style="font-size: 14px;"><code class=" language-json"><span class="token punctuation">{</span><span class="token property">"array"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token property">"toMove"</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></div></div><div class="T5If_4nMQzEw7OO_5WafD"><div class="_1TTYJqjHyXq5Wk4v2qxlCa WQFK1XYoNoHrSFZQqlC3B dark"><span class="mGA3QqPB7uQ-Bt6P-D73u">Test Case 2<svg aria-hidden="true" data-prefix="fas" data-icon="share-square" class="_3X0zN3mQa388ERt3siM8mS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-tip="Populate Quick Test" currentItem="false"><path fill="currentColor" d="M568.482 177.448L424.479 313.433C409.3 327.768 384 317.14 384 295.985v-71.963c-144.575.97-205.566 35.113-164.775 171.353 4.483 14.973-12.846 26.567-25.006 17.33C155.252 383.105 120 326.488 120 269.339c0-143.937 117.599-172.5 264-173.312V24.012c0-21.174 25.317-31.768 40.479-17.448l144.003 135.988c10.02 9.463 10.028 25.425 0 34.896zM384 379.128V448H64V128h50.916a11.99 11.99 0 008.648-3.693c14.953-15.568 32.237-27.89 51.014-37.676C185.708 80.83 181.584 64 169.033 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48v-88.806c0-8.288-8.197-14.066-16.011-11.302a71.83 71.83 0 01-34.189 3.377c-7.27-1.046-13.8 4.514-13.8 11.859z"></path></svg></span><pre class="_2Z65yov7mdonKkpCXgc_4c line-numbers language-json" style="font-size: 14px;"><code class=" language-json"><span class="token punctuation">{</span><span class="token property">"array"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token property">"toMove"</span><span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></div></div><div class="T5If_4nMQzEw7OO_5WafD"><div class="_1TTYJqjHyXq5Wk4v2qxlCa WQFK1XYoNoHrSFZQqlC3B dark"><span class="mGA3QqPB7uQ-Bt6P-D73u">Test Case 3<svg aria-hidden="true" data-prefix="fas" data-icon="share-square" class="_3X0zN3mQa388ERt3siM8mS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-tip="Populate Quick Test" currentItem="false"><path fill="currentColor" d="M568.482 177.448L424.479 313.433C409.3 327.768 384 317.14 384 295.985v-71.963c-144.575.97-205.566 35.113-164.775 171.353 4.483 14.973-12.846 26.567-25.006 17.33C155.252 383.105 120 326.488 120 269.339c0-143.937 117.599-172.5 264-173.312V24.012c0-21.174 25.317-31.768 40.479-17.448l144.003 135.988c10.02 9.463 10.028 25.425 0 34.896zM384 379.128V448H64V128h50.916a11.99 11.99 0 008.648-3.693c14.953-15.568 32.237-27.89 51.014-37.676C185.708 80.83 181.584 64 169.033 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48v-88.806c0-8.288-8.197-14.066-16.011-11.302a71.83 71.83 0 01-34.189 3.377c-7.27-1.046-13.8 4.514-13.8 11.859z"></path></svg></span><pre class="_2Z65yov7mdonKkpCXgc_4c line-numbers language-json" style="font-size: 14px;"><code class=" language-json"><span class="token punctuation">{</span><span class="token property">"array"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token property">"toMove"</span><span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></div></div><div class="T5If_4nMQzEw7OO_5WafD"><div class="_1TTYJqjHyXq5Wk4v2qxlCa WQFK1XYoNoHrSFZQqlC3B dark"><span class="mGA3QqPB7uQ-Bt6P-D73u">Test Case 4<svg aria-hidden="true" data-prefix="fas" data-icon="share-square" class="_3X0zN3mQa388ERt3siM8mS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-tip="Populate Quick Test" currentItem="false"><path fill="currentColor" d="M568.482 177.448L424.479 313.433C409.3 327.768 384 317.14 384 295.985v-71.963c-144.575.97-205.566 35.113-164.775 171.353 4.483 14.973-12.846 26.567-25.006 17.33C155.252 383.105 120 326.488 120 269.339c0-143.937 117.599-172.5 264-173.312V24.012c0-21.174 25.317-31.768 40.479-17.448l144.003 135.988c10.02 9.463 10.028 25.425 0 34.896zM384 379.128V448H64V128h50.916a11.99 11.99 0 008.648-3.693c14.953-15.568 32.237-27.89 51.014-37.676C185.708 80.83 181.584 64 169.033 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48v-88.806c0-8.288-8.197-14.066-16.011-11.302a71.83 71.83 0 01-34.189 3.377c-7.27-1.046-13.8 4.514-13.8 11.859z"></path></svg></span><pre class="_2Z65yov7mdonKkpCXgc_4c line-numbers language-json" style="font-size: 14px;"><code class=" language-json"><span class="token punctuation">{</span><span class="token property">"array"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token property">"toMove"</span><span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></div></div><div class="T5If_4nMQzEw7OO_5WafD"><div class="_1TTYJqjHyXq5Wk4v2qxlCa WQFK1XYoNoHrSFZQqlC3B dark"><span class="mGA3QqPB7uQ-Bt6P-D73u">Test Case 5<svg aria-hidden="true" data-prefix="fas" data-icon="share-square" class="_3X0zN3mQa388ERt3siM8mS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-tip="Populate Quick Test" currentItem="false"><path fill="currentColor" d="M568.482 177.448L424.479 313.433C409.3 327.768 384 317.14 384 295.985v-71.963c-144.575.97-205.566 35.113-164.775 171.353 4.483 14.973-12.846 26.567-25.006 17.33C155.252 383.105 120 326.488 120 269.339c0-143.937 117.599-172.5 264-173.312V24.012c0-21.174 25.317-31.768 40.479-17.448l144.003 135.988c10.02 9.463 10.028 25.425 0 34.896zM384 379.128V448H64V128h50.916a11.99 11.99 0 008.648-3.693c14.953-15.568 32.237-27.89 51.014-37.676C185.708 80.83 181.584 64 169.033 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48v-88.806c0-8.288-8.197-14.066-16.011-11.302a71.83 71.83 0 01-34.189 3.377c-7.27-1.046-13.8 4.514-13.8 11.859z"></path></svg></span><pre class="_2Z65yov7mdonKkpCXgc_4c line-numbers language-json" style="font-size: 14px;"><code class=" language-json"><span class="token punctuation">{</span><span class="token property">"array"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token property">"toMove"</span><span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></div></div><div class="T5If_4nMQzEw7OO_5WafD"><div class="_1TTYJqjHyXq5Wk4v2qxlCa WQFK1XYoNoHrSFZQqlC3B dark"><span class="mGA3QqPB7uQ-Bt6P-D73u">Test Case 6<svg aria-hidden="true" data-prefix="fas" data-icon="share-square" class="_3X0zN3mQa388ERt3siM8mS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-tip="Populate Quick Test" currentItem="false"><path fill="currentColor" d="M568.482 177.448L424.479 313.433C409.3 327.768 384 317.14 384 295.985v-71.963c-144.575.97-205.566 35.113-164.775 171.353 4.483 14.973-12.846 26.567-25.006 17.33C155.252 383.105 120 326.488 120 269.339c0-143.937 117.599-172.5 264-173.312V24.012c0-21.174 25.317-31.768 40.479-17.448l144.003 135.988c10.02 9.463 10.028 25.425 0 34.896zM384 379.128V448H64V128h50.916a11.99 11.99 0 008.648-3.693c14.953-15.568 32.237-27.89 51.014-37.676C185.708 80.83 181.584 64 169.033 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48v-88.806c0-8.288-8.197-14.066-16.011-11.302a71.83 71.83 0 01-34.189 3.377c-7.27-1.046-13.8 4.514-13.8 11.859z"></path></svg></span><pre class="_2Z65yov7mdonKkpCXgc_4c line-numbers language-json" style="font-size: 14px;"><code class=" language-json"><span class="token punctuation">{</span><span class="token property">"array"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token property">"toMove"</span><span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></div></div><div class="T5If_4nMQzEw7OO_5WafD"><div class="_1TTYJqjHyXq5Wk4v2qxlCa WQFK1XYoNoHrSFZQqlC3B dark"><span class="mGA3QqPB7uQ-Bt6P-D73u">Test Case 7<svg aria-hidden="true" data-prefix="fas" data-icon="share-square" class="_3X0zN3mQa388ERt3siM8mS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-tip="Populate Quick Test" currentItem="false"><path fill="currentColor" d="M568.482 177.448L424.479 313.433C409.3 327.768 384 317.14 384 295.985v-71.963c-144.575.97-205.566 35.113-164.775 171.353 4.483 14.973-12.846 26.567-25.006 17.33C155.252 383.105 120 326.488 120 269.339c0-143.937 117.599-172.5 264-173.312V24.012c0-21.174 25.317-31.768 40.479-17.448l144.003 135.988c10.02 9.463 10.028 25.425 0 34.896zM384 379.128V448H64V128h50.916a11.99 11.99 0 008.648-3.693c14.953-15.568 32.237-27.89 51.014-37.676C185.708 80.83 181.584 64 169.033 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48v-88.806c0-8.288-8.197-14.066-16.011-11.302a71.83 71.83 0 01-34.189 3.377c-7.27-1.046-13.8 4.514-13.8 11.859z"></path></svg></span><pre class="_2Z65yov7mdonKkpCXgc_4c line-numbers language-json" style="font-size: 14px;"><code class=" language-json"><span class="token punctuation">{</span><span class="token property">"array"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token property">"toMove"</span><span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></div></div><div class="T5If_4nMQzEw7OO_5WafD"><div class="_1TTYJqjHyXq5Wk4v2qxlCa WQFK1XYoNoHrSFZQqlC3B dark"><span class="mGA3QqPB7uQ-Bt6P-D73u">Test Case 8<svg aria-hidden="true" data-prefix="fas" data-icon="share-square" class="_3X0zN3mQa388ERt3siM8mS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-tip="Populate Quick Test" currentItem="false"><path fill="currentColor" d="M568.482 177.448L424.479 313.433C409.3 327.768 384 317.14 384 295.985v-71.963c-144.575.97-205.566 35.113-164.775 171.353 4.483 14.973-12.846 26.567-25.006 17.33C155.252 383.105 120 326.488 120 269.339c0-143.937 117.599-172.5 264-173.312V24.012c0-21.174 25.317-31.768 40.479-17.448l144.003 135.988c10.02 9.463 10.028 25.425 0 34.896zM384 379.128V448H64V128h50.916a11.99 11.99 0 008.648-3.693c14.953-15.568 32.237-27.89 51.014-37.676C185.708 80.83 181.584 64 169.033 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48v-88.806c0-8.288-8.197-14.066-16.011-11.302a71.83 71.83 0 01-34.189 3.377c-7.27-1.046-13.8 4.514-13.8 11.859z"></path></svg></span><pre class="_2Z65yov7mdonKkpCXgc_4c line-numbers language-json" style="font-size: 14px;"><code class=" language-json"><span class="token punctuation">{</span><span class="token property">"array"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">11</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token property">"toMove"</span><span class="token operator">:</span> <span class="token number">5</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></div></div><div class="T5If_4nMQzEw7OO_5WafD"><div class="_1TTYJqjHyXq5Wk4v2qxlCa WQFK1XYoNoHrSFZQqlC3B dark"><span class="mGA3QqPB7uQ-Bt6P-D73u">Test Case 9<svg aria-hidden="true" data-prefix="fas" data-icon="share-square" class="_3X0zN3mQa388ERt3siM8mS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-tip="Populate Quick Test" currentItem="false"><path fill="currentColor" d="M568.482 177.448L424.479 313.433C409.3 327.768 384 317.14 384 295.985v-71.963c-144.575.97-205.566 35.113-164.775 171.353 4.483 14.973-12.846 26.567-25.006 17.33C155.252 383.105 120 326.488 120 269.339c0-143.937 117.599-172.5 264-173.312V24.012c0-21.174 25.317-31.768 40.479-17.448l144.003 135.988c10.02 9.463 10.028 25.425 0 34.896zM384 379.128V448H64V128h50.916a11.99 11.99 0 008.648-3.693c14.953-15.568 32.237-27.89 51.014-37.676C185.708 80.83 181.584 64 169.033 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48v-88.806c0-8.288-8.197-14.066-16.011-11.302a71.83 71.83 0 01-34.189 3.377c-7.27-1.046-13.8 4.514-13.8 11.859z"></path></svg></span><pre class="_2Z65yov7mdonKkpCXgc_4c line-numbers language-json" style="font-size: 14px;"><code class=" language-json"><span class="token punctuation">{</span><span class="token property">"array"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">11</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token property">"toMove"</span><span class="token operator">:</span> <span class="token number">5</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></div></div><div class="T5If_4nMQzEw7OO_5WafD"><div class="_1TTYJqjHyXq5Wk4v2qxlCa WQFK1XYoNoHrSFZQqlC3B dark"><span class="mGA3QqPB7uQ-Bt6P-D73u">Test Case 10<svg aria-hidden="true" data-prefix="fas" data-icon="share-square" class="_3X0zN3mQa388ERt3siM8mS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-tip="Populate Quick Test" currentItem="false"><path fill="currentColor" d="M568.482 177.448L424.479 313.433C409.3 327.768 384 317.14 384 295.985v-71.963c-144.575.97-205.566 35.113-164.775 171.353 4.483 14.973-12.846 26.567-25.006 17.33C155.252 383.105 120 326.488 120 269.339c0-143.937 117.599-172.5 264-173.312V24.012c0-21.174 25.317-31.768 40.479-17.448l144.003 135.988c10.02 9.463 10.028 25.425 0 34.896zM384 379.128V448H64V128h50.916a11.99 11.99 0 008.648-3.693c14.953-15.568 32.237-27.89 51.014-37.676C185.708 80.83 181.584 64 169.033 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48v-88.806c0-8.288-8.197-14.066-16.011-11.302a71.83 71.83 0 01-34.189 3.377c-7.27-1.046-13.8 4.514-13.8 11.859z"></path></svg></span><pre class="_2Z65yov7mdonKkpCXgc_4c line-numbers language-json" style="font-size: 14px;"><code class=" language-json"><span class="token punctuation">{</span><span class="token property">"array"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">11</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token property">"toMove"</span><span class="token operator">:</span> <span class="token number">5</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></div></div></div></div></div></div></div>
+</body>
+</html>
